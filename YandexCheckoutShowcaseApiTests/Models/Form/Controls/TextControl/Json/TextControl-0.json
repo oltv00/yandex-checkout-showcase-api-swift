@@ -1,0 +1,7 @@
+{
+  "type": "text",
+  "name": "surname",
+  "label": "Фамилия",
+  "required": true,
+  "readonly": false
+}

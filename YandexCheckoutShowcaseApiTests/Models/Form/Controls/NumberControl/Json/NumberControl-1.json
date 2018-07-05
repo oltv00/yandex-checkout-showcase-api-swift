@@ -1,0 +1,7 @@
+{
+  "type": "number",
+  "name": "coins",
+  "label": "Количество единиц игровой валюты",
+  "required": true,
+  "readonly": false
+}

@@ -1,0 +1,7 @@
+{
+  "type": "email",
+  "name": "email",
+  "label": "Email",
+  "required": true,
+  "readonly": false
+}

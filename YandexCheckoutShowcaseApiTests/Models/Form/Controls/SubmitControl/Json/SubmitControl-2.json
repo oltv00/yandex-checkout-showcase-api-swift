@@ -1,0 +1,38 @@
+{
+  "type": "submit",
+  "required": true,
+  "readonly": false,
+  "items": [
+    {
+      "label": "Gama-gama.ru",
+      "amount": 999.5,
+      "currency": "RUB",
+      "items": [
+        {
+          "type": "ul",
+          "label": "Бонус от поставщика",
+          "items": [
+            "Steam-версия игры"
+          ]
+        }
+      ],
+      "hidden_fields": {
+        "shn": "Gama-gama.ru",
+        "ShopID": "102018",
+        "ShowCaseID": "6451",
+        "marketArticleId": "14337"
+      }
+    },
+    {
+      "label": "Гамазавр",
+      "amount": 1999,
+      "currency": "RUB",
+      "hidden_fields": {
+        "shn": "Гамазавр",
+        "ShopID": "8247",
+        "ShowCaseID": "6451",
+        "marketArticleId": "10498"
+      }
+    }
+  ]
+}

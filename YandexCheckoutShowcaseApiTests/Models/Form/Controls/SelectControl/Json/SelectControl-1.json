@@ -1,0 +1,26 @@
+{
+  "type": "select",
+  "name": "country",
+  "label": "Страна для звонков",
+  "placeholder": "--- выберите из списка ---",
+  "options": [
+    {
+      "value": "gb",
+      "label": "Великобритания"
+    },
+    {
+      "value": "de",
+      "label": "Германия"
+    },
+    {
+      "value": "es",
+      "label": "Испания"
+    },
+    {
+      "value": "it",
+      "label": "Италия"
+    }
+  ],
+  "required": true,
+  "readonly": false
+}

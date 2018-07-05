@@ -1,0 +1,27 @@
+{
+  "type": "select",
+  "name": "DeliveryType",
+  "value": "ym_msk",
+  "label": "Где получить ридер",
+  "options": [
+    {
+      "value": "ym_msk",
+      "label": "в офисе Яндекс.Денег в Москве"
+    },
+    {
+      "value": "russianPost",
+      "label": "в отделении Почты России (после доставки)",
+      "group": [
+        {
+          "type": "month",
+          "name": "period",
+          "label": "Период оплаты",
+          "required": true,
+          "readonly": false
+        }
+      ]
+    }
+  ],
+  "required": true,
+  "readonly": false
+}

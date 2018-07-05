@@ -1,0 +1,9 @@
+{
+  "type": "checkbox",
+  "name": "notify_me",
+  "value": "agreed",
+  "checked" : true,
+  "label": "Уведомлять меня о начислениях",
+  "readonly": false,
+  "required": false
+}

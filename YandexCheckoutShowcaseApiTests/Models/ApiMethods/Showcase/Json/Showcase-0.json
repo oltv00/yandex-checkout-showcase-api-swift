@@ -1,0 +1,38 @@
+{
+  "money_source": [
+    "wallet",
+    "cards",
+    "payment-card",
+    "cash"
+  ],
+  "title": "Квитанции",
+  "hidden_fields": {
+    "ShopID": "13423",
+    "ShopArticleID": "35241",
+    "ShowCaseID": "3005",
+    "ContractTemplateID": "524867",
+    "budgetDocNumber": "0",
+    "has_external_status": "",
+    "is_withdrawal": ""
+  },
+  "form": [
+    {
+      "type": "text",
+      "name": "supplierInn",
+      "hint": "10 цифр (для ИП - 12 цифр)",
+      "label": "ИНН получателя:",
+      "alert": "Пожалуйста, укажите ИНН получателя",
+      "required": true,
+      "readonly": false,
+      "minlength": 10,
+      "maxlength": 12,
+      "pattern": "^\\d{10}$|^\\d{12}$"
+    },
+    {
+      "type": "submit",
+      "label": "Продолжить",
+      "required": true,
+      "readonly": true
+    }
+  ]
+}

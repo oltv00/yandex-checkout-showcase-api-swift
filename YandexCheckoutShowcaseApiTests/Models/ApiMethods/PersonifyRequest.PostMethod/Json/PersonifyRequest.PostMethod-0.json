@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "lastName": "Иванов",
+    "firstName": "Иван",
+    "middleName": "Иванович",
+    "birthday": "1988-01-05",
+    "passportNumber": "5000123456",
+    "passportIssueDate": "2016-01-31"
+  }
+}

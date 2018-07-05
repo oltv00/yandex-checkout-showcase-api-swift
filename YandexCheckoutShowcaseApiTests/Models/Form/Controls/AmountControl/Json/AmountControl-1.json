@@ -1,0 +1,10 @@
+{
+  "type": "amount",
+  "name": "sum",
+  "label": "Сумма",
+  "fee": {
+    "type": "custom"
+  },
+  "required": true,
+  "readonly": false
+}

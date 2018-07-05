@@ -1,0 +1,9 @@
+{
+  "type": "textarea",
+  "name": "comment",
+  "label": "Комментарий к переводу",
+  "hint": "Здесь можно написать что-нибудь получателю",
+  "maxlength": 150,
+  "required": false,
+  "readonly": false
+}

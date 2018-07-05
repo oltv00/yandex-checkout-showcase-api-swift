@@ -1,0 +1,11 @@
+{
+  "type": "amount",
+  "name": "sum",
+  "label": "Сумма",
+  "fee": {
+    "a": 0.02,
+    "amount_type": "netAmount"
+  },
+  "required": true,
+  "readonly": false
+}

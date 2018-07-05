@@ -1,0 +1,34 @@
+{
+  "type": "group",
+  "label": "Получатель перевода",
+  "layout": "HBox",
+  "items": [
+    {
+      "type": "text",
+      "name": "surname",
+      "label": "Фамилия",
+      "required": true,
+      "readonly": false,
+      "maxlength": 50,
+      "alert": "Пожалуйста, укажите фамилию получателя"
+    },
+    {
+      "type": "text",
+      "name": "name",
+      "label": "Имя",
+      "required": true,
+      "readonly": false,
+      "maxlength": 50,
+      "alert": "Пожалуйста, укажите имя получателя"
+    },
+    {
+      "type": "text",
+      "name": "patronymic",
+      "label": "Отчество",
+      "required": true,
+      "readonly": false,
+      "maxlength": 50,
+      "alert": "Пожалуйста, укажите отчество получателя"
+    }
+  ]
+}

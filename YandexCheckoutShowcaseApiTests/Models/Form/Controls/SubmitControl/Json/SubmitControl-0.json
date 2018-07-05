@@ -1,0 +1,6 @@
+{
+  "type": "submit",
+  "label": "Заплатить",
+  "required": true,
+  "readonly": false
+}

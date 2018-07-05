@@ -1,0 +1,34 @@
+{
+  "type": "submit",
+  "required": true,
+  "readonly": false,
+  "items": [
+    {
+      "label": "Acme Ltd",
+      "amount": 99,
+      "currency": "RUB",
+      "hidden_fields": {
+        "shopId": "1",
+        "shopArticleId": "2"
+      }
+    },
+    {
+      "label": "Вектор ООО",
+      "amount": 98,
+      "currency": "RUB",
+      "hidden_fields": {
+        "shopId": "3",
+        "shopArticleId": "4"
+      }
+    },
+    {
+      "label": "Ромашка ООО",
+      "amount": 97,
+      "currency": "RUB",
+      "hidden_fields": {
+        "shopId": "5",
+        "shopArticleId": "6"
+      }
+    }
+  ]
+}

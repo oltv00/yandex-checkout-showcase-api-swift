@@ -1,0 +1,7 @@
+{
+  "type": "month",
+  "name": "period",
+  "label": "Период оплаты",
+  "required": true,
+  "readonly": false
+}
