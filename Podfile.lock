@@ -1,5 +1,5 @@
 PODS:
-  - FunctionalSwift (1.0.5)
+  - FunctionalSwift (1.1.1)
   - OHHTTPStubs (6.1.0):
     - OHHTTPStubs/Default (= 6.1.0)
   - OHHTTPStubs/Core (6.1.0)
@@ -13,32 +13,32 @@ PODS:
   - OHHTTPStubs/NSURLSession (6.1.0):
     - OHHTTPStubs/Core
   - OHHTTPStubs/OHPathHelpers (6.1.0)
-  - YandexCheckoutShowcaseApi (1.0.0):
-    - FunctionalSwift (~> 1.0.5)
-    - YandexMoneyCoreApi (~> 1.0.0)
-  - YandexMoneyCoreApi (1.0.1):
-    - FunctionalSwift (~> 1.0.5)
-  - YandexMoneyTestInstrumentsApi (1.0.0):
-    - FunctionalSwift (~> 1.0.0)
+  - YandexCheckoutShowcaseApi (1.0.1):
+    - FunctionalSwift (~> 1.1.0)
+    - YandexMoneyCoreApi (~> 1.3.0)
+  - YandexMoneyCoreApi (1.3.1):
+    - FunctionalSwift (~> 1.1.0)
+  - YandexMoneyTestInstrumentsApi (1.2.3):
+    - FunctionalSwift (~> 1.1.0)
     - OHHTTPStubs (~> 6.1.0)
-    - YandexMoneyCoreApi (~> 1.0.0)
+    - YandexMoneyCoreApi (~> 1.3.0)
 
 DEPENDENCIES:
   - YandexCheckoutShowcaseApi (from `./`)
-  - YandexMoneyCoreApi (~> 1.0.0)
-  - YandexMoneyTestInstrumentsApi (~> 1.0.0)
+  - YandexMoneyCoreApi (~> 1.3.0)
+  - YandexMoneyTestInstrumentsApi (~> 1.2.0)
 
 EXTERNAL SOURCES:
   YandexCheckoutShowcaseApi:
     :path: ./
 
 SPEC CHECKSUMS:
-  FunctionalSwift: 89cef31016cbc9fcdd49ec04e5831ed5f51244bb
+  FunctionalSwift: ccb7b6b0918f3d189fa12ce1f6ba716d8053b19a
   OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
-  YandexCheckoutShowcaseApi: 1055b26bf32c72cdb02cd74e5f3cbe4d4fb13f00
-  YandexMoneyCoreApi: fdb12aa2f53bf31dd0c9a9d50c399d69e79a149f
-  YandexMoneyTestInstrumentsApi: 058ab654545d84b834d9af1804b40d78930f2297
+  YandexCheckoutShowcaseApi: 9ecb5c925dbb4155dbae9a797fd4ee72c0060a65
+  YandexMoneyCoreApi: 4992ee490dbce771904df1f4dcdd0dd750bc9599
+  YandexMoneyTestInstrumentsApi: 186df6ceaa2a7988eaf3c255549f6a10f6592739
 
-PODFILE CHECKSUM: cdcc2012092c943482771b99b01125d4decbe335
+PODFILE CHECKSUM: 38aa1f4a952be3fd33cd6aaf18d96bf6caf68a85
 
 COCOAPODS: 1.4.0
