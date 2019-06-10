@@ -309,7 +309,7 @@
 		305BA11F201A0560004A2A42 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		305BA121201A0560004A2A42 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		305BA122201A0560004A2A42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		305BA123201A0560004A2A42 /* YandexCheckoutShowcaseApi.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YandexCheckoutShowcaseApi.podspec; sourceTree = "<group>"; };
+		305BA123201A0560004A2A42 /* YandexCheckoutShowcaseApi.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YandexCheckoutShowcaseApi.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		305BA124201A0560004A2A42 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 		454FC96AB8918D5BB5AE4CF7 /* Pods-YandexCheckoutShowcaseApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexCheckoutShowcaseApiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YandexCheckoutShowcaseApiTests/Pods-YandexCheckoutShowcaseApiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		54087C89CB88023BE384D836 /* Pods-YandexCheckoutShowcaseApiTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexCheckoutShowcaseApiTests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-YandexCheckoutShowcaseApiTests/Pods-YandexCheckoutShowcaseApiTests.adhoc.xcconfig"; sourceTree = "<group>"; };
@@ -1144,7 +1144,6 @@
 				305BA0DB2019DA1F004A2A42 /* Frameworks */,
 				305BA0DC2019DA1F004A2A42 /* Resources */,
 				CD8C0312210914CF2A405DC5 /* [CP] Embed Pods Frameworks */,
-				F4CA8575CA0F210719815BDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1165,7 +1164,6 @@
 				305BA0F32019DE71004A2A42 /* Frameworks */,
 				305BA0F42019DE71004A2A42 /* Resources */,
 				223A08DF2392FA5210055644 /* [CP] Embed Pods Frameworks */,
-				A3B35A897A7E736BD11CCCB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1320,7 +1318,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YandexCheckoutShowcaseApiExamplePods/Pods-YandexCheckoutShowcaseApiExamplePods-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-YandexCheckoutShowcaseApiExamplePods/Pods-YandexCheckoutShowcaseApiExamplePods-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FunctionalSwift/FunctionalSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/YandexCheckoutShowcaseApi/YandexCheckoutShowcaseApi.framework",
 				"${BUILT_PRODUCTS_DIR}/YandexMoneyCoreApi/YandexMoneyCoreApi.framework",
@@ -1333,7 +1331,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexCheckoutShowcaseApiExamplePods/Pods-YandexCheckoutShowcaseApiExamplePods-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YandexCheckoutShowcaseApiExamplePods/Pods-YandexCheckoutShowcaseApiExamplePods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		28EBA6BD430DD890875D560C /* [CP] Check Pods Manifest.lock */ = {
@@ -1354,32 +1352,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A3B35A897A7E736BD11CCCB9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexCheckoutShowcaseApiExamplePods/Pods-YandexCheckoutShowcaseApiExamplePods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CD8C0312210914CF2A405DC5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YandexCheckoutShowcaseApiTests/Pods-YandexCheckoutShowcaseApiTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-YandexCheckoutShowcaseApiTests/Pods-YandexCheckoutShowcaseApiTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FunctionalSwift/FunctionalSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/YandexMoneyCoreApi/YandexMoneyCoreApi.framework",
 				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
@@ -1394,7 +1373,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexCheckoutShowcaseApiTests/Pods-YandexCheckoutShowcaseApiTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YandexCheckoutShowcaseApiTests/Pods-YandexCheckoutShowcaseApiTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EB7836BFEFD104A56328CEC1 /* [CP] Check Pods Manifest.lock */ = {
@@ -1413,25 +1392,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F4CA8575CA0F210719815BDD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexCheckoutShowcaseApiTests/Pods-YandexCheckoutShowcaseApiTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
