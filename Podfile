@@ -5,11 +5,11 @@ use_frameworks!
 
 target 'YandexCheckoutShowcaseApiExamplePods' do
   pod 'YandexCheckoutShowcaseApi', :path => './'
-  pod 'YandexMoneyCoreApi', '~> 1.3.0'
+  pod 'YandexMoneyCoreApi', '~> 1.6.0'
 end
 
 target 'YandexCheckoutShowcaseApiTests' do
-  pod 'YandexMoneyTestInstrumentsApi', '~> 1.2.0'
+  pod 'YandexMoneyTestInstrumentsApi', '~> 1.3.0'
 end
 
 post_install do |installer|
