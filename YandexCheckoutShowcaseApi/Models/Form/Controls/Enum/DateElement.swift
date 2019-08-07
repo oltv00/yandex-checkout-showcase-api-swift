@@ -25,7 +25,7 @@ public enum DateElement: Decodable, Encodable {
 
         let string = try container.decode(String.self)
 
-        if let separatorIndex = string.index(of: Constants.separator) {
+        if let separatorIndex = string.firstIndex(of: Constants.separator) {
             let afterSeparatorIndex = string.index(after: separatorIndex)
             let left = String(string[..<separatorIndex])
             let right = String(string[afterSeparatorIndex...])
